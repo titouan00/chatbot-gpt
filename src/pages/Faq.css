@@ -1,0 +1,24 @@
+.title{
+    height: 50px;
+    text-align: center;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 120px);
+}
+.response{
+    width: 100%;
+    height: 88%;
+    /* background-color: aqua; */
+}
+.request{
+    width: 100%;
+    height: 12%;
+    background-color: rgb(66, 65, 70);
+    border: none;
+    color: whitesmoke;
+}
+.request:focus{
+    outline: none;
+}
